@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.drunkenbros.controller.BoardController" project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/controller/BoardController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="288" x="2281" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="com.drunkenbros.model.service.BoardService" project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/model/service/BoardService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="315" width="192" x="2367" y="572"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="com.drunkenbros.controller.AdminMainController" project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/controller/AdminMainController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="359" x="3054" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.drunkenbros.common.member.PassSecurity" project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/common/member/PassSecurity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="177" x="3156" y="572"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="com.drunkenbros.model.service.MemberService" project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/model/service/MemberService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="271" x="2845" y="572"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="com.drunkenbros.controller.AlcoholController" project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/controller/AlcoholController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="495" width="412" x="829" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="com.drunkenbros.model.service.AlcoholImageService" 
+    project="DrunkenBrosProject" file="/DrunkenBrosProject/src/com/drunkenbros/model/service/AlcoholImageService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="154" x="41" y="572"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="8" language="java" name="com.drunkenbros.model.service.ReviewService" project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/model/service/ReviewService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="144" x="1938" y="572"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="9" language="java" name="com.drunkenbros.model.service.AlcoholService" project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/model/service/AlcoholService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="222" x="1036" y="572"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="10" language="java" name="com.drunkenbros.model.service.SubcategoryService" 
+    project="DrunkenBrosProject" file="/DrunkenBrosProject/src/com/drunkenbros/model/service/SubcategoryService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="167" x="829" y="572"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="11" language="java" name="com.drunkenbros.model.service.TopcategoryService" 
+    project="DrunkenBrosProject" file="/DrunkenBrosProject/src/com/drunkenbros/model/service/TopcategoryService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="206" x="1298" y="572"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="12" language="java" name="com.drunkenbros.controller.MailController" project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/controller/MailController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="214" x="1684" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="13" language="java" name="org.springframework.mail.javamail.JavaMailSender" 
+    project="DrunkenBrosProject" 
+    file="C:/Users/pposs/.m2/repository/org/springframework/spring-context-support/4.3.23.RELEASE/spring-context-support-4.3.23.RELEASE.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position height="171" width="261" x="1898" y="1467"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="14" language="java" name="com.drunkenbros.controller.MemberController" project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/controller/MemberController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="405" x="2609" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.drunkenbros.common.member.BirthSetter" project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/common/member/BirthSetter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="315" width="206" x="2599" y="572"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.drunkenbros.controller.ResetPasswordController" project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/controller/ResetPasswordController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="268" x="3453" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.drunkenbros.controller.ReviewController" project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/controller/ReviewController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="303" x="1938" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.drunkenbros.controller.RestAlcoholController" project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/controller/RestAlcoholController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="311" x="1281" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.drunkenbros.aop.AdminSessionAspect" project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/aop/AdminSessionAspect.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="291" x="269" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.drunkenbros.common.Pager" project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/common/Pager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="585" width="205" x="2122" y="572"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.drunkenbros.common.ReviewScoreSetter" project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/common/ReviewScoreSetter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="333" width="206" x="235" y="572"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.drunkenbros.common.SendEmail" project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/common/SendEmail.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="333" x="1544" y="572"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.drunkenbros.io.FileManager" project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/io/FileManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="308" x="481" y="572"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.drunkenbros.model.repository.MybatisAlcoholDAO" project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/model/repository/MybatisAlcoholDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="243" width="188" x="4072" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="org.mybatis.spring.SqlSessionTemplate" project="DrunkenBrosProject" 
+    file="C:/Users/pposs/.m2/repository/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2.jar" binary="true" 
+    corner="BOTTOM_RIGHT">    
+    <position height="855" width="445" x="4596" y="572"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="com.drunkenbros.model.repository.MybatisAlcoholImageDAO" 
+    project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/model/repository/MybatisAlcoholImageDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="170" x="4300" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.drunkenbros.model.repository.MybatisBoardDAO" project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/model/repository/MybatisBoardDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="279" width="158" x="5158" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="com.drunkenbros.model.repository.MybatisCommentsDAO" project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/model/repository/MybatisCommentsDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="175" x="5356" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="com.drunkenbros.model.repository.MybatisMemberDAO" project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/model/repository/MybatisMemberDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="423" width="271" x="3761" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="com.drunkenbros.model.repository.MybatisReviewDAO" project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/model/repository/MybatisReviewDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="155" x="4510" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="com.drunkenbros.model.repository.MybatisSubcategoryDAO" 
+    project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/model/repository/MybatisSubcategoryDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="167" x="4705" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="com.drunkenbros.model.repository.MybatisTopcategoryDAO" 
+    project="DrunkenBrosProject" 
+    file="/DrunkenBrosProject/src/com/drunkenbros/model/repository/MybatisTopcategoryDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="206" x="4912" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="33">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="34" name="reviewService"/>      
+      <multiplicity id="35" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="36">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <association id="37">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="38" name="sessionTemplate"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="40">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="41" name="topcategoryService"/>      
+      <multiplicity id="42" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="43">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <association id="44">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="45" name="sessionTemplate"/>      
+      <multiplicity id="46" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="47">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="48" name="memberService"/>      
+      <multiplicity id="49" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="50">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <association id="51">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="52" name="alcoholService"/>      
+      <multiplicity id="53" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="54">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="55" name="alcoholImageService"/>      
+      <multiplicity id="56" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="57">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="58" name="memberService"/>      
+      <multiplicity id="59" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="60">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="61" name="sessionTemplate"/>      
+      <multiplicity id="62" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="63">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="64" name="sessionTemplate"/>      
+      <multiplicity id="65" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="66">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <association id="67">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="68" name="memberService"/>      
+      <multiplicity id="69" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="70">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="71" name="sessionTemplate"/>      
+      <multiplicity id="72" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="73">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="74" name="passSecurity"/>      
+      <multiplicity id="75" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="76">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="77" name="sessionTemplate"/>      
+      <multiplicity id="78" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="79">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="80" name="sessionTemplate"/>      
+      <multiplicity id="81" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="82">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <dependency id="83">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <association id="84">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="85" name="passSecurity"/>      
+      <multiplicity id="86" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="87">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <association id="88">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="89" name="sessionTemplate"/>      
+      <multiplicity id="90" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="91">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="92" name="alcoholService"/>      
+      <multiplicity id="93" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="94">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="95" name="boardService"/>      
+      <multiplicity id="96" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="97">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="98" name="subcategoryService"/>      
+      <multiplicity id="99" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="100">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="101" name="reviewService"/>      
+      <multiplicity id="102" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="103">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="104" name="subcategoryService"/>      
+      <multiplicity id="105" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="106">    
+    <bendpoint x="1907" y="572"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="107" name="javaMailSender"/>      
+      <multiplicity id="108" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="109">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="110" name="memberService"/>      
+      <multiplicity id="111" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="112">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="113" name="javaMailSender"/>      
+      <multiplicity id="114" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="115">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="116" name="topcategoryService"/>      
+      <multiplicity id="117" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="118">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <association id="119">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="120" name="birth"/>      
+      <multiplicity id="121" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
